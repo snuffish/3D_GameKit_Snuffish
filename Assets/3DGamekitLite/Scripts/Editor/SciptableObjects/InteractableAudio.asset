@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 980f48c62b6001c43bcf88eb709a2ee7, type: 3}
+  m_Name: InteractableAudio
+  m_EditorClassIdentifier: 
+  pickupHealth:
+    Guid:
+      Data1: 1623525893
+      Data2: 1207776387
+      Data3: -1489619833
+      Data4: -1876302292
+    Path: event:/Interactables/PickupHealth
+  destructableBox:
+    Guid:
+      Data1: 1785891192
+      Data2: 1101826598
+      Data3: -1472706675
+      Data4: -1976700466
+    Path: event:/Interactables/BoxDestroy
+  pressurePad:
+    Guid:
+      Data1: 1374870984
+      Data2: 1299041207
+      Data3: -1439909237
+      Data4: 247275520
+    Path: event:/Interactables/PressurePad
+  doorSwitch:
+    Guid:
+      Data1: 757149698
+      Data2: 1122088513
+      Data3: -296755326
+      Data4: 67666693
+    Path: event:/Interactables/DoorSwitch
+  doorOpen:
+    Guid:
+      Data1: 193596134
+      Data2: 1211336212
+      Data3: 84797859
+      Data4: -51076298
+    Path: event:/Interactables/DoorOpen
